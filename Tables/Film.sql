@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Film] (
     [FilmID]        INT            IDENTITY (1, 1) NOT NULL,
-    [Tytul]         CHAR (50)      NULL,
+    [Tytul]         NVARCHAR (50)      NULL,
     [KrajID]        INT            NULL,
     [CzasTrwania]   TIME (7)       NULL,
     [Opis]          NVARCHAR (MAX) NULL,
